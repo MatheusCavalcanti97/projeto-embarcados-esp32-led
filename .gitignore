@@ -1,0 +1,19 @@
+# Ignorar pasta build (arquivos gerados na compilação)
+build/
+
+# Ignorar arquivos temporários e de log
+*.log
+*.tmp
+
+# Ignorar arquivos de sistema do Windows e macOS
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração locais do VSCode
+.vscode/*.code-workspace
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Ignorar diretórios de container dev, caso não queira compartilhar
+.devcontainer/
