@@ -8,5 +8,9 @@
   "idf.toolsPathWin": "C:\\Users\\MATHEUS-LIMA\\.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32"
+  },
+  "files.associations": {
+    ".env*": "dotenv",
+    "protocol_examples_common.h": "c"
   }
 }
